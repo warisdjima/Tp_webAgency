@@ -1,0 +1,264 @@
+body
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Roboto',sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    position: fixed;
+    z-index: 1;
+    margin-bottom: 40px;
+    top: 0;
+    background-color: #fff;
+}
+.menu {
+	display: flex;
+	align-content: space-between;
+}
+nav ul{
+	width: 100%;
+	display: flex;
+	/*align-items: center;*/
+    align-content: space-between;
+	list-style: none;
+	display: flex;
+    align-content: space-between;
+    
+}
+nav ul li a{
+	margin-left: 10px;
+    text-decoration: black;
+    margin-left: 20px;
+    padding-top: 15px;
+    
+}
+nav ul li a:active{
+    border-top: 3px solid #3491b2;
+}
+
+.bannière{
+    margin-top: 70px;
+    position: relative;
+
+}
+
+.slider{
+    width: 1200px;
+    overflow: hidden;
+    margin-top: 10px;
+   
+    }
+.fleche{
+    position: absolute;
+    z-index: 1;
+    margin-top: 16%;
+    display: flex;
+}
+.gauche{
+    margin-right:2758%;
+}
+
+.fa-chevron-left{
+    color: white;
+}
+.gauche{
+    background-color: #424246;
+    -webkit-border-radus:50% / 60% 60% 40% 40%;
+    border-radius: 50% / 0% 100% 100% 0;
+    border: 1px solid #424246;
+    border-left: none;
+    padding: 5px;
+}
+.droite{
+    background-color: #424246;
+    -webkit-border-radus:50% / 60% 60% 40% 40%;
+    border-radius: 50% / 100% 0 0 100%;
+    border: 1px solid #424246;
+    border-left: none;
+    padding: 5px;
+}
+
+ .slides{
+        width: calc(1200px * 2);
+        animation: glisse 6s infinite;
+    
+    }
+.slid{
+        float: left;
+
+    }
+ @keyframes glisse {
+     0%        {
+          transform: translateX(0);
+         }
+     10%       {
+          transform: translateX(0);
+         }
+     20%       { 
+         transform: translateX(0); 
+        }
+     50%       {
+          transform: translateX(-1200px);
+        }
+     60%       {
+          transform: translateX(-1200px);
+        }
+     70%       {
+          transform: translateX(-1200px);
+        }
+     100%       { 
+         transform: translateX(-1200px);
+        }
+}
+.cont_bannière{
+    position: absolute;
+    padding-top: 80px;
+    padding-left: 90px;
+} 
+.cont_bannière h1{
+    color: white;
+}
+.cont_bannière p{
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+mark{
+    color: #3491b2;
+    text-decoration: none;
+    background: none;
+}
+.bouton_bleu{
+    border-bottom: 3px #3491b2 solid;
+    border-radius: 2px;
+    background-color: #5cadd3;
+    padding: 9px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ 
+section{ 
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+#point_bleu {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background-color: #3491b2;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+    margin-left: 50%;
+}
+
+.cercle{
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-top: 16px;
+    background-color: #5cadd3;
+    height: 10px;
+}
+
+.fa-chart-line, .fa-chart-pie {
+    color: #5cadd3;
+}
+ .dive h1,  .div p{
+    text-align: center;
+}
+.cont_services{
+    display: flex;
+}
+.cont_texte ul{
+	list-style: none;
+}
+h4{
+    text-align: center;
+}
+#Portfolio nav ul{
+    list-style: none;
+    display: flex;
+    align-content: space-between;
+    text-align: center;
+}
+#Portfolio{
+    background-color: #f9f9f9;
+    width: 80%;
+}
+.galerie {
+    height: 219px;
+    width: 820px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin: 30px 10px;
+    border: 1px solid rgb(254, 255, 255);
+}
+.galerie a img{
+    height: 120px;
+    width: 180px;
+    margin: 10px 10px 10px 10px;
+}
+form{
+    width: 295px;
+    background-color: rgb(243, 239, 239);
+    margin-left: 60%;
+    /*margin-right: 5%;*/
+    opacity: 0.8;
+    
+}
+
+form h1, form h6, form input, form textarea{
+    margin: 10px 10px 10px 10px;
+}
+body{
+    width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+.formulaire_contact{
+    background: url(../images/maps.jpg) no-repeat;
+}
+.pojet{
+    padding-top: 15px;
+}
+.pojet_para{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.tab{
+    padding-left: 0;
+}
+.tab:hover{
+    background-color: #5cadd3;
+    color: white;
+    height: 20px;
+}
+.nav_tab{
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 2px solid white;
+    background-color: #e8ecee;
+    color: white;
+    
+}
+.parag{
+    display: flex;
+}
+.dernier_para{
+    margin-left: 120px;
+}
